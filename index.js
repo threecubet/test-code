@@ -12,6 +12,7 @@ mongoose.Promise = global.Promise;
 app.use(bodyparser.json());
 
 app.use('/api',routes);
+//this is to check git
 
 // listen for request
 app.listen(3000,function(){
